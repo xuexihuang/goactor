@@ -1,6 +1,7 @@
 # goactor
 利用goroutine和channel实现的类actor模块，简单易用
 # 先来看例子
+```go
 import (
 	"github.com/xuexihuang/goactor/log"
 	"github.com/xuexihuang/goactor"
@@ -21,7 +22,7 @@ func main() {
 	miniactor = nil
 
 }
-
+```
 如上就实现了动态创建一个actor，并通过goroutine通道发送消息和参数，actor模块内部异步实现计算，我们分部通过actor的几个特征来分析下封装的合理性
 # 隔离性
 actor内部和外部没有任何数据共享，内部的状态数据通过
