@@ -4,8 +4,8 @@ import (
 	"container/list"
 	"runtime"
 	"sync"
-	"testgo/goactor/conf"
-	"testgo/goactor/log"
+	"github.com/xuexihuang/gonet/conf"
+	"github.com/xuexihuang/gonet/log"
 )
 
 // one Go per goroutine (goroutine not safe)

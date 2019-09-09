@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"runtime"
-	"testgo/goactor/conf"
-	"testgo/goactor/log"
+	"github.com/xuexihuang/gonet/conf"
+	"github.com/xuexihuang/gonet/log"
 )
 
 // one server per goroutine (goroutine not safe)
