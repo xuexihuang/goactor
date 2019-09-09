@@ -1,9 +1,9 @@
 package module
 
 import (
-	"github.com/xuexihuang/gonet/chanrpc"
-	"github.com/xuexihuang/gonet/go"
-	"github.com/xuexihuang/gonet/timer"
+	"github.com/xuexihuang/goactor/chanrpc"
+	"github.com/xuexihuang/goactor/go"
+	"github.com/xuexihuang/goactor/timer"
 	"time"
 )
 

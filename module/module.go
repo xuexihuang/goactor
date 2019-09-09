@@ -3,8 +3,8 @@ package module
 import (
 	"runtime"
 	"sync"
-	"github.com/xuexihuang/gonet/conf"
-	"github.com/xuexihuang/gonet/log"
+	"github.com/xuexihuang/goactor/conf"
+	"github.com/xuexihuang/goactor/log"
 )
 
 type Module interface {
